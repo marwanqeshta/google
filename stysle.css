@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.908);
+}
+a{
+    text-decoration: none;
+}
+
+/*start header design*/
+header{
+    position: fixed;
+    right: 0rem;
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+header a{    
+    padding-right: 1rem;
+}
+header img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+/*end header design*/
+
+
+/*start main design*/
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+.container {
+   width: 35%;
+    padding: 20px;
+  
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4rem;
+  }
+  
+  
+  .search {
+    text-align: center;
+  }
+  
+  .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid  #ccc;
+    border-radius: 1rem;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.imges{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 11%;
+  top: 49%;
+}  
+  .search-buttons {
+    margin:20px 0;
+
+  }
+  
+  .search-buttons input[type="submit"] {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  
+
+  .container p{
+    text-align: center;
+  }
+
+  .container a{
+    color: blue;
+  }
+  
+/*end main design*/
+
+
+
+/*start footer design*/
+footer{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    top: 90%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+ul{
+    list-style: none;
+}
+footer p{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 8px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.5px solid #ccc;
+    padding-top: 8px;
+}
+
+.firt-list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.firt-list li{
+    padding-left: 1rem;
+}
+
+.second-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-list li{
+    padding-right: 1rem;
+}
+/*end footer design*/
+
+
+
+
+
+
